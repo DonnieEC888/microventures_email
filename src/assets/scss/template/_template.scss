@@ -4,5 +4,36 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #ffffff !important; 
+}
+
+
+.logo {
+  th {
+    padding-top: 10px !important;
+  }
+  
+  .logo__img {
+    max-width: 210px;
+  }
+}
+
+.intro {
+  .intro__account {
+    margin-top: 20px ;
+    margin-bottom: 25px;
+
+    .intro__login {
+      @include link;
+    }
+  }
+
+  .intro__button {
+    @include button;
+  }
+
+  .intro__divider {
+    @include divider;
+    margin-top: 40px;
+  }
 }
