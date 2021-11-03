@@ -35,5 +35,62 @@ html,
   .intro__divider {
     @include divider;
     margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+.offering__heading {
+  background: #555555;
+  th {
+    padding: 5px;
+  }
+  
+
+  .offering__heading-text {
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+}
+.offering__company {
+
+  th {
+    line-height: 1.6;
+  }
+
+  .offering__company-logo {
+ 
+    .offering__company-logo-img {
+      max-width: 200px;
+      margin-top: 100px;
+    }
+  }
+
+  .offering__company-info {
+    .summary {
+      margin-top: 20px ;
+    }
+    .highlights {
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: underline;
+    }
+  
+  }
+
+}
+
+.offering__bottom {
+  margin-top: 10px;
+
+  .button {
+    @include button
+  }
+
+  .divider {
+    @include divider;
+    margin-top: 30px;
   }
 }

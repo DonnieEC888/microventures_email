@@ -1,0 +1,70 @@
+{
+    "offers": [
+        {
+            "image": "https://i.imgur.com/K39gsuA.jpg",
+            "summary": "Creates non-alcoholic cocktails for discerning drinkers",
+            "points": {
+                "first": "Featured in publications such as the New York Times, Self Magazine, GQ, Imbibe, NYT Wirecutter, and SevenFifty Daily",
+                "second": "Online return customer rate jumped from 17.5% in Q4 2020 to 29.6% in February 2021"
+            }
+
+        },
+        {
+            "image": "https://i.imgur.com/njWnIes.jpg",
+            "summary": "Probiotic water kefir beverage brand",
+            "points": {
+                "first": "Increased total retail door count from 140 to over 300 from January 2020 to April 2021, including its first Whole Foods locations in Oregon and Washington",
+                "second": "Sold 11,000+ cases in 2020"
+            }
+
+        },
+        {
+            "image": "https://i.imgur.com/BvAd2Yc.jpg",
+            "summary": "Frozen breakfast food company",
+            "points": {
+                "first": "Generated more than $1.28 million in revenue in 2020, up 271% year-over-year",
+                "second": "Product can be found in major grocers like Central Market HEB, Safeway, and Wegmans"
+            }
+
+        },
+        {
+            "image": "https://i.imgur.com/YRYjE3h.jpg",
+            "summary": "Dietary supplement brand",
+            "points": {
+                "first": "Recommended 'New Products'vendor of the AATAC, a national association of retailers and consumer goods buying groups that include operators of 80,000 stores like 7-Eleven, Sunoco, Gulf, and Circle K",
+                "second": "Reached over $64,000 and $19,000 in revenue in Q4 2020 and Q1 2021, respectively, with gross margins above 70%"
+            }
+
+        },
+        {
+            "image": "https://i.imgur.com/Du2b08J.jpg",
+            "summary": "Air sterilizer designed to destroy airborne pathogens",
+            "points": {
+                "first": "Its flagship product, ARECA™, is an in-room air sterilization unit designed to destroy airborne pathogens with PlasmaFence™ technology",
+                "second": "Raised over $250,000 last year through MicroVentures and is returning for another round to further develop its product portfolio"
+            }
+
+        },
+        {
+            "image": "https://i.imgur.com/oKsqhdL.jpg",
+            "summary": "A new, breakthrough salt that delivers full sodium flavor with 50% less sodium",
+            "points": {
+                "first": "Delivers 50% sodium reduction while maintaining saltiness in several studies, natural and without any additives",
+                "second": "Experienced team with decades of experience including former P&G and Pringles executives"
+            }
+
+        },
+        {
+            "image": "https://i.imgur.com/B1hXMB1.jpg",
+            "summary": "Provides personal environmental exposure analysis and tracking to consumers",
+            "points": {
+                "first": "MOU with Parley for the Oceans (international ocean conservation NGO) and contract with The Community (Publicis Groupe) to launch a plastic awareness campaign in Summer 2021",
+                "second": "Provides mail-in test kits to measure personal exposure of potentially harmful environmental chemicals"
+            }
+
+        }
+    ]
+
+
+
+}
