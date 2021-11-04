@@ -83,14 +83,74 @@ html,
 }
 
 .offering__bottom {
-  margin-top: 10px;
+  margin-top: 25px;
 
   .button {
-    @include button
+    @include button;
   }
 
   .divider {
     @include divider;
     margin-top: 30px;
   }
+}
+
+.login {
+  margin-top: 12px;
+
+  .login__text {
+    margin-bottom: 20px;
+    .login__login {
+      @include link;
+    }
+  }
+  
+
+  .login__button {
+    @include button;
+    margin-top: 20px;
+  }
+  .login__divider {
+    @include divider;
+    margin-top: 35px;
+  }
+}
+
+.app {
+
+  .app__icon {
+    max-width: 116px;
+  }
+
+  .app__info {
+    margin-bottom: 5px;
+  }
+
+  .app__download {
+    margin-bottom: 30px;
+  }
+
+  .app__button {
+    @include button;
+  }
+
+  .app__divider {
+    @include divider;
+    margin-top: 25px;
+  }
+}
+
+.social {
+    margin-top: 15px;
+ 
+    .social__link {
+      display: inline-block;
+      margin-right: 7px;
+      width: 32px;
+      height: 32px;
+    } 
+}
+
+.social__divider {
+  @include divider;
 }
