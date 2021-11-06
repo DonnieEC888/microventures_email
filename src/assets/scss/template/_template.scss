@@ -118,6 +118,10 @@ html,
 
 .app {
 
+  th {
+    padding-bottom: 0 !important;
+  }
+
   .app__icon {
     max-width: 116px;
   }
@@ -137,11 +141,17 @@ html,
   .app__divider {
     @include divider;
     margin-top: 25px;
+    margin-bottom: 0;
   }
 }
 
-.social {
-    margin-top: 15px;
+
+.footer {
+  background: #fafafa !important;
+  
+
+  .social {
+    margin-top: 30px !important;
  
     .social__link {
       display: inline-block;
@@ -153,4 +163,31 @@ html,
 
 .social__divider {
   @include divider;
+  
+}
+
+.footer__buttom {
+  
+  .footer__buttom-copyright{
+    @include footer-text;
+    font-style: italic;
+  }
+  .footer__bottom-info {
+    @include footer-text;
+
+    .link {
+      text-decoration: underline;
+    }
+  } 
+}
+
+
+.footer__text {
+  @include footer-text;
+  .footer__link {
+    @include link;
+  }
+  
+}
+
 }
