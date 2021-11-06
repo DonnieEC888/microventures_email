@@ -19,9 +19,26 @@ html,
 }
 
 .intro {
+
+  .intro__summary {
+    @media only screen and (max-width: 375px) {
+      font-size: 12px !important;
+    }
+    @media only screen and (min-width: 425px) {
+      font-size: 16px !important;
+    }
+
+  }
   .intro__account {
     margin-top: 20px ;
     margin-bottom: 25px;
+    @media only screen and (max-width: 375px) {
+      font-size: 12px !important;
+      margin-top: 12px !important;
+    }
+    @media only screen and (min-width: 425px) {
+      font-size: 16px !important;
+    }
 
     .intro__login {
       @include link;
@@ -55,9 +72,16 @@ html,
   .offering__heading-text {
     text-transform: capitalize;
     color: #ffffff;
-    font-size: 18px;
+    
     font-weight: 600;
-    margin: 10px 0;
+    margin-top: 12px;
+    margin-bottom: 0;
+    @media only screen and (max-width: 375px) {
+      font-size: 14px !important;
+    }
+    @media only screen and (min-width: 425px) {
+      font-size: 18px !important;
+    }
   }
 }
 .offering__company {
@@ -136,6 +160,12 @@ html,
 
   .login__text {
     margin-bottom: 20px;
+    @media only screen and (max-width: 375px) {
+      font-size: 12px !important;
+    }
+    @media only screen and (min-width: 425px) {
+      font-size: 16px !important;
+    }
     .login__login {
       @include link;
     }
@@ -171,10 +201,22 @@ html,
   .app__info {
     margin-bottom: 5px;
     margin-top: 5px;
+    @media only screen and (max-width: 375px) {
+      font-size: 12px !important;
+    }
+    @media only screen and (min-width: 425px) {
+      font-size: 16px !important;
+    }
   }
 
   .app__download {
     margin-bottom: 30px;
+    @media only screen and (max-width: 375px) {
+      font-size: 12px !important;
+    }
+    @media only screen and (min-width: 425px) {
+      font-size: 16px !important;
+    }
   }
 
   .app__button {
